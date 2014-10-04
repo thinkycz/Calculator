@@ -21,6 +21,7 @@
 		C5960BBA19BBAA0C00204479 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5960B9C19BBAA0C00204479 /* UIKit.framework */; };
 		C5960BC219BBAA0C00204479 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5960BC019BBAA0C00204479 /* InfoPlist.strings */; };
 		C5960BC419BBAA0C00204479 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5960BC319BBAA0C00204479 /* CalculatorTests.m */; };
+		C5960BCF19BBAC7E00204479 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = C5960BCE19BBAC7E00204479 /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C5960BBF19BBAA0C00204479 /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		C5960BC119BBAA0C00204479 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5960BC319BBAA0C00204479 /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		C5960BCD19BBAC7E00204479 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalculatorBrain.h; path = Model/CalculatorBrain.h; sourceTree = "<group>"; };
+		C5960BCE19BBAC7E00204479 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalculatorBrain.m; path = Model/CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +115,9 @@
 		C5960B9E19BBAA0C00204479 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				C5960BA719BBAA0C00204479 /* CalculatorAppDelegate.h */,
-				C5960BA819BBAA0C00204479 /* CalculatorAppDelegate.m */,
 				C5960BAA19BBAA0C00204479 /* Main.storyboard */,
+				C5960BCD19BBAC7E00204479 /* CalculatorBrain.h */,
+				C5960BCE19BBAC7E00204479 /* CalculatorBrain.m */,
 				C5960BAD19BBAA0C00204479 /* CalculatorViewController.h */,
 				C5960BAE19BBAA0C00204479 /* CalculatorViewController.m */,
 				C5960BB019BBAA0C00204479 /* Images.xcassets */,
@@ -126,6 +129,8 @@
 		C5960B9F19BBAA0C00204479 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C5960BA719BBAA0C00204479 /* CalculatorAppDelegate.h */,
+				C5960BA819BBAA0C00204479 /* CalculatorAppDelegate.m */,
 				C5960BA019BBAA0C00204479 /* Calculator-Info.plist */,
 				C5960BA119BBAA0C00204479 /* InfoPlist.strings */,
 				C5960BA419BBAA0C00204479 /* main.m */,
@@ -252,6 +257,7 @@
 			files = (
 				C5960BA919BBAA0C00204479 /* CalculatorAppDelegate.m in Sources */,
 				C5960BA519BBAA0C00204479 /* main.m in Sources */,
+				C5960BCF19BBAC7E00204479 /* CalculatorBrain.m in Sources */,
 				C5960BAF19BBAA0C00204479 /* CalculatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
